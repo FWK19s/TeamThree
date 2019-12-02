@@ -16,8 +16,8 @@ app.get('/about', (req, res) => {
     res.sendFile(__dirname + '/public/about.html');
 })
 
-app.get('/form', (req, res) => {
-    res.sendFile(__dirname + '/public/form.html');
+app.get('/signup', (req, res) => {
+    res.sendFile(__dirname + '/public/signup.html');
 })
 
 
