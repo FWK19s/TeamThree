@@ -62,7 +62,7 @@ function validation(e) {
         }
     })
     if (!error) {
-        myForm.submit();
+        window.location = "/submission"
     }
 }
 
