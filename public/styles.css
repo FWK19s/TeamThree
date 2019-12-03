@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Solway&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -118,4 +119,17 @@ p {
   position: absolute;
   right: 0px;
   width: 44%;
+}
+
+.sub {
+  font-family: "Solway", serif;
+  margin-left: 350px;
+}
+
+h2 {
+  font-family: "Arizonia";
+  font-size: 100px;
+  text-shadow: 1px 1px 2px gray, 0 0 25px #fe0059, 0 0 5px darkred;
+  text-align: center;
+  margin-top: 100px;
 }
