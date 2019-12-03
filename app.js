@@ -12,8 +12,8 @@ app.get('/', (req, res) => {  // create a route an use callback function
 
 });
 
-app.get('/about', (req, res) => {
-    res.sendFile(__dirname + '/public/about.html');
+app.get('/submission', (req, res) => {
+    res.sendFile(__dirname + '/public/submission.html');
 })
 
 app.get('/signup', (req, res) => {
