@@ -21,7 +21,7 @@ body {
 .navbar ul {
   list-style: none;
   display: flex;
-  margin-left: 200px;
+  margin: auto;
   background: transparent;
 }
 
@@ -123,7 +123,7 @@ p {
 
 .sub {
   font-family: "Solway", serif;
-  margin-left: 350px;
+ 
 }
 
 h2 {
